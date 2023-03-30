@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Alkatra", cursive;
+  color: rgb(165, 23, 8);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+nav {
+  margin: 25px;
+}
+
+nav ul li {
+  margin: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: red;
+  text-decoration: none;
+}
+
+#banner {
+  color: rgb(202, 149, 2);
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#banner h2 {
+  color: rgb(165, 23, 8);
+  background-color: rgba(255, 255, 255, 0.227);
+  padding: 10px;
+}
+
+#banner h2,
+h3 {
+  margin: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-align: center;
+}
+
+.titulo-temporada {
+  color: rgb(165, 23, 8);
+  background-color: rgba(202, 149, 2, 0.253);
+  padding: 10px;
+}
+
+.subtitulos-temporada {
+  color: rgb(202, 149, 2);
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+section div {
+  padding: 10px;
+  margin: 10px;
+}
+
+img {
+  width: 350px;
+  padding: 10px;
+}
+
+figcaption {
+  text-align: center;
+  margin: 5px;
+}
+
+section div p {
+  padding: 20px;
+  text-align: justify;
+}
+
+.personagens ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 10px;
+}
+
+.icone {
+  color: red;
+}
