@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Links */
+/* https://www.pngwing.com/pt */
+/* freepik */
+
+.card {
+  width: 450px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.card__imagem {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.card__imagem img {
+  width: 45%;
+  position: absolute;
+  left: 120px;
+}
+
+.card__descricao {
+  text-align: center;
+  margin: 10px;
+}
+
+.card__descricao h2 {
+  margin: 15px;
+  color: blue;
+}
+
+.card__descricao p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.card__descricao span {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.card__botao {
+  position: relative;
+}
+.card__botao button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: blue;
+  position: absolute;
+  left: 170px;
+  top: 30px;
+  border-radius: 10px;
+}
+.card__botao button a {
+  width: 100%;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.card__botao button {
+}
