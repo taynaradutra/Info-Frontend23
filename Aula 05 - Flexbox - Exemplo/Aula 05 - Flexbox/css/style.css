@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Links */
+/* https://www.pngwing.com/pt */
+/* freepik */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: grey;
+  padding: 25px;
+}
+
+.cabecalho nav ul {
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.cabecalho nav li a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.cabecalho nav li a:hover {
+  background-color: yellow;
+}
+
+.container__produtos {
+  display: flex;
+  border: 1px solid red;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 20px;
+  /* margin: auto; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card__fundo {
+  height: 180px;
+  background-size: cover;
+  background-image: url("../img/background.jpg");
+  /* position: relative; */
+}
+.card__fundo figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img {
+  width: 40%;
+}
+
+.card__descricao {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+}
+
+.card__descricao h2 {
+  text-align: center;
+  color: rgb(3, 3, 108);
+}
+
+.card__descricao p {
+  text-align: justify;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.card__descricao span {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+.card__botao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.card__botao button {
+  border: 2px solid rgb(3, 3, 108);
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(3, 3, 108);
+}
+
+.card__botao button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.card__rosa {
+  background-color: pink;
+}

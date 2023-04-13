@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin: 50px;
+}
+
+.container {
+  width: 500px;
+  height: 800px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row; /*main axis*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background: #4a72ca;
+  text-align: center;
+  color: #fff;
+  border: 1px solid black;
+}
+
+.item1 {
+  flex-grow: 1;
+  align-self: flex-end;
+}
