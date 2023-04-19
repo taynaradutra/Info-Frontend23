@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
+}
+
+header {
+  padding: 30px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  font-weight: bold;
+  border: 2px solid #ee74e1;
+}
+
+#descricaoPortal {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#descricaoPortal h1 {
+  text-align: center;
+}
+
+#descricaoPortal p {
+  text-align: justify;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.formulario__titulo {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form fieldset {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form .dados__pessoais div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__subtitulos {
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  height: 40px;
+  padding: 5px;
+}
+
+.sobre__dev {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sobre__dev textarea {
+  width: 100%;
+  height: 250px;
+  resize: none;
+  padding: 15px;
+}
+
+.form__botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.form__botoes button {
+  width: 80px;
+  height: 40px;
+  background-color: #ee74e1;
+  border: none;
+  cursor: pointer;
+}
+
+.form__botoes button:hover {
+  background-color: transparent;
+  font-weight: bold;
+  border: 3px solid #ee74e1;
+}
