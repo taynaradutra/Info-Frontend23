@@ -66,3 +66,20 @@ textarea {
   background-color: rgb(98, 98, 250);
   color: rgb(238, 239, 240);
 }
+
+input[type="text"]:disabled {
+  background-color: grey;
+}
+
+input[type="text"]:disabled::placeholder {
+  color: rgb(213, 211, 211);
+}
+
+input:focus {
+  outline: 1px solid yellow;
+  border: none;
+}
+
+input:invalid {
+  background-color: red;
+}
