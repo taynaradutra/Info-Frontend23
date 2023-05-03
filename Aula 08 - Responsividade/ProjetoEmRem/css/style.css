@@ -1,52 +1,66 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }  
-  
-html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
   font-size: 20px;
 }
 
-  h1 {
-      margin:20px;
-  }
+h1 {
+  margin: 20px;
+}
 
-  /*medida relativa que vai usar o elemento pai como referência*/
-  .container-em {
-    border: 3px solid coral;
-    margin: 20px;
-    width: 600px;
-    padding: 30px;
-    font-size: 20px;
-  }
-  
-  .item-em {
-    margin-top: 20px;
-    border: 3px solid crimson;
-    font-size:1em;
-    width: 50%;    
-  }
-  
-  .dois-em {
-  }
+/*medida relativa que vai usar o elemento pai como referência*/
+.container-em {
+  border: 3px solid coral;
 
-  .tres-em {
-  }
+  margin: 20px;
+  padding: 30px;
 
-  /*medida relativa que vai usar o elemento raiz (html) como referência*/
-  .container-rem {
-    border: 3px solid coral;
-    margin: 20px;    
-    width: 600px;
-    padding: 30px;
-    font-size:40px;
+  width: 600px;
 
-  }
-  
-  .item-rem {
-    font-size: 1rem;
-    margin-top: 20px;
-    border: 3px solid crimson;
-  }
-  
+  font-size: 30px;
+}
+
+.item-em {
+  margin-top: 20px;
+  border: 3px solid crimson;
+
+  width: 50%;
+}
+
+.um-em {
+  font-size: 2em;
+  color: blue;
+}
+
+.dois-em {
+  font-size: 0.5em;
+}
+
+.tres-em {
+}
+
+/*medida relativa que vai usar o elemento raiz (html) como referência*/
+.container-rem {
+  border: 3px solid coral;
+  margin: 20px;
+  width: 600px;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.item-rem {
+  margin-top: 20px;
+  border: 3px solid crimson;
+}
+
+.um-rem {
+  font-size: 2rem;
+}
+
+.dois-rem {
+  font-size: 0.5rem;
+}
