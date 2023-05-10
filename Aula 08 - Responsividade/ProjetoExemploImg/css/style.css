@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 * {
@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -34,6 +34,7 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 15px;
+  font-size: 1rem;
 }
 
 ul li a {
@@ -55,6 +56,19 @@ main {
   gap: 10px;
 }
 
+main h1 {
+  font-size: 2rem;
+}
+
+main h2 {
+  font-size: 1.5rem;
+}
+
+main p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -63,11 +77,15 @@ main {
   align-items: center;
 
   border: 1px solid red;
+  width: 100%;
 }
 
 .item {
+  width: 40%;
+  min-width: 150px;
 }
 .item img {
+  width: 100%;
 }
 
 footer {
@@ -75,6 +93,7 @@ footer {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  font-size: 1rem;
 }
 
 .footer-menu {
@@ -99,9 +118,52 @@ max-width - tudo que estiver abaixo.
 min-width - tudo que for maior.
 */
 @media (max-width: 768px) {
-  /* Tablets */
+  html {
+    font-size: 12px;
+  }
+
+  header {
+    background-color: yellow;
+  }
 }
 
 @media (max-width: 460px) {
-  /* Smartphones */
+  html {
+    font-size: 20px;
+  }
+
+  header {
+    background-color: red;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .menu-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .item {
+    width: 80%;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-menu,
+  .footer-contato {
+    align-items: center;
+  }
 }
