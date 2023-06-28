@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: blueviolet;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  border: 2px solid blueviolet;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item input:not(input[type="radio"]),
+textarea {
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.form-item input:focus,
+textarea:focus {
+  outline: 1px solid rgb(78, 1, 149);
+  border: none;
+}
+
+.form-botao-item {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-botao {
+  width: 30%;
+  height: 35px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  color: white;
+}
